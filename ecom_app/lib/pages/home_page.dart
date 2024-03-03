@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  //delete task
+  //delete task //all done
   void deleteTask(int index) {
     setState(() {
       db.toDoList.removeAt(index);
@@ -75,12 +75,17 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+<<<<<<< HEAD
       backgroundColor: Color.fromARGB(255, 25, 157, 175),
+=======
+      backgroundColor: Color.fromARGB(255, 95, 161, 237),
+>>>>>>> 03ff2b722f11f78fea4901be562601683ed20887
       appBar: AppBar(
         title: Text('To Do'),
         elevation: 0,
       ),
       floatingActionButton: FloatingActionButton(
+          backgroundColor: Color.fromARGB(255, 62, 139, 226),
           onPressed: createNewTask, child: Icon(Icons.add)),
       body: ListView.builder(
         itemCount: db.toDoList.length,

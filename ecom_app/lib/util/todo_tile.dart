@@ -37,7 +37,11 @@ class ToDoTile extends StatelessWidget {
         child: Container(
           padding: EdgeInsets.all(24),
           decoration: BoxDecoration(
+<<<<<<< HEAD
             color: Color.fromARGB(227, 218, 248, 250),
+=======
+            color: Color.fromARGB(255, 212, 238, 254),
+>>>>>>> 03ff2b722f11f78fea4901be562601683ed20887
             borderRadius: BorderRadius.circular(12),
           ),
           child: Column(
@@ -104,4 +108,8 @@ class ToDoTile extends StatelessWidget {
       throw Exception('Failed to fetch quote');
     }
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 03ff2b722f11f78fea4901be562601683ed20887
